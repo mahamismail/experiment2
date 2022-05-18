@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/******* MI class SunPatrol
+ * Simple class to initiate random movement for the sun enemies. On collision 
+ with the game boundaries, the sun returns back in the same direction.
+ */
+
 public class SunPatrol : MonoBehaviour
 {
     private Rigidbody2D rb2d;
     void GoSun()
     {
+        //initiating new forces in different conditions 
+
         float rand = Random.Range(0, 2);
         if (rand < 1)
         {
@@ -26,6 +33,8 @@ public class SunPatrol : MonoBehaviour
 
 
     }
+
+    // if the sun collides with any walls of the game, make the force negative.
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
         
@@ -38,6 +47,8 @@ public class SunPatrol : MonoBehaviour
         }
         
         /*
+        // Let the sun switch directions upon collision with walls
+
         if (hitInfo.name == "wall1" || hitInfo.name == "wall2" || hitInfo.name == "wall3" || hitInfo.name == "wall4" || hitInfo.name == "Player")
         {
             int num = Random.Range(0, 3);

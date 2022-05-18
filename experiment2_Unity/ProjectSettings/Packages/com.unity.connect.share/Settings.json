@@ -21,7 +21,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"D:/NEU/Game Engine/Week2/Week2_RPG_Inventory - V4/Week2_RPG_Inventory/WebGL Builds;D:/NEU/Game Engine/Week2/Week2_RPG_Inventory - V4/Week2_RPG_Inventory/WebGL Builds/Build;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"D:/NEU/WebGL;D:/NEU/Game Engine/Week2/Week2_RPG_Inventory - V4/Week2_RPG_Inventory/WebGL Builds;D:/NEU/Game Engine/Week2/Week2_RPG_Inventory - V4/Week2_RPG_Inventory/WebGL Builds/Build;;;;;;;\"}"
             }
         ]
     }
